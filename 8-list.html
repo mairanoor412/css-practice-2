@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> List </title>
+
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+         
+        /* *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } */
+        html {
+            font-family:  "Urbanist", sans-serif;
+        }
+        body {
+            height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(to bottom, gray, yellow );
+            background-repeat: no-repeat;
+            display:grid;
+            place-items: center;
+
+        }
+
+        .lists {
+            width: 500px;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 5px 5px #fff;
+            
+
+        
+
+        }
+        li {
+            font-size: 20px;
+            font-weight: 400px;
+            border: 2px solid yellow;
+            margin: 8px;
+            padding: 8px;
+            list-style-position: inside;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="lists">
+            <ul>
+                <li> LIKE </li>
+                <li>
+                    SHARE
+                    <ul>
+                        <li>SHARE</li>
+                        <li> SUBSCRIBE</li>
+                    </ul>
+                </li>
+                <li> SUBSCRIBE </li>
+            </ul>
+        </div>
+    </section>
+    
+</body>
+</html>
